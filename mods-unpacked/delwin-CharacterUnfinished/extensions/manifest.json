@@ -1,0 +1,18 @@
+{
+  "name": "CharacterUnfinished",
+  "namespace": "delwin",
+  "version_number": "1.0.0",
+  "description": "Show a red bar at the bottom of characters who never finished any wave 20",
+  "website_url": "https://github.com/Delwin444/brotato-mod-item-name-overflow",
+  "dependencies": [],
+  "extra": {
+    "godot": {
+      "incompatibilities": [],
+      "authors": ["Delwin"],
+      "tags": ["GUI"],
+      "compatible_mod_loader_version": ["6.3.0"],
+      "compatible_game_version": ["1.1.11.0"],
+      "config_schema": {}
+    }
+  }
+}
