@@ -6,10 +6,10 @@ func _spawn_element(element: Resource, _display_banned: float = 0, animated_entr
 	if element is CharacterData:
 		var is_unfinished = true
 		for zone in ZoneService.zones:
-			var progress = ProgressData.get_character_difficulty_info(element.my_id, zone.my_id)
+			var progress = ProgressData.get_character_difficulty_info(element.my_id_hash, zone.my_id)
 			if progress.max_difficulty_beaten.difficulty_value != -1:
 				is_unfinished = false
 		if is_unfinished == true:
 			instance.add_unfinished_marker()
-	
+	6
 	return instance
